@@ -1,0 +1,41 @@
+#idCard {
+    background: pink;
+    border: 4px solid black;
+    width: 500px;
+    height: 200px;
+    margin-top: 25px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+    margin-left: 100px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 10px;
+    }
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+.img {
+    position: relative;
+    bottom: 140px;
+}
+.vta {
+    width: 100px;
+    margin-left: 76%;
+}
+
+body {
+    background: lightblue;
+}

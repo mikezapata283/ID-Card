@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ID Card Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+
+        <h1>Let's Create an ID card!</h1>
+
+    <section>
+        <p>First Name:</p>
+        <input type="text" id="firstName">
+
+        <p>Last Name:</p>
+        <input type="text" id="lastName">
+
+        <p>Age:</p>
+        <input type="text" id="age">
+
+        <p>Phone Number:</p>
+        <input type="text" id="phoneNumber">
+
+        <p>Address:</p>
+        <input type="text" id="address">
+
+        <br>
+
+        <button
+         onclick="generateID()">Click Me!</button>
+
+    </section>
+
+        <div id="idCard">
+            <h2>ID Card</h2>
+            <div>First Name:
+                <span id="userFirstName"></span>
+            </div>
+
+            <div>Last Name:
+                <span id="userLastName"></span>
+            </div>
+
+            <div>Age:
+                <span id="userAge"></span>
+            </div>
+
+            <div>Phone Number:
+                <span id="userPhoneNumber"></span>
+            </div>
+
+            <div>Address:
+                <span id="userAddress"></span>
+            </div>
+
+            <div class="img"><img class="vta"
+                src="http://www.valleytechnicalacademy.com/wp-content/uploads/2017/10/VTA-logo-350-1.png">
+            </div>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+</html>
